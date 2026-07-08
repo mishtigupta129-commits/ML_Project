@@ -9,17 +9,17 @@
 
 # 📖 Overview
 
-This repository contains a collection of Machine Learning projects developed using Python. These projects cover essential concepts of data preprocessing, exploratory data analysis (EDA), feature engineering, predictive modeling, and model evaluation using real-world datasets.
+This repository contains a collection of Machine Learning projects developed using Python. These projects demonstrate practical applications of data preprocessing, exploratory data analysis (EDA), feature engineering, predictive modeling, and model evaluation using real-world datasets.
 
-The repository demonstrates practical implementation of Machine Learning techniques using popular Python libraries and serves as a learning portfolio for different ML applications.
+The repository showcases fundamental Machine Learning concepts and serves as a portfolio of beginner-to-intermediate ML projects.
 
 ---
 
 # 📂 Repository Contents
 
-## 🚗 1. Car Dataset Data Preprocessing
+## 🚗 1. Car Data Preprocessing
 
-**Notebook:** `Car_dataset_data_preprocessing.ipynb`
+**Notebook:** `Car_Data_Preprocessing.ipynb`
 
 ### Features
 
@@ -27,7 +27,7 @@ The repository demonstrates practical implementation of Machine Learning techniq
 - Missing Value Handling
 - Feature Encoding
 - Data Normalization
-- Exploratory Data Analysis
+- Exploratory Data Analysis (EDA)
 - Dataset Preparation for Machine Learning
 
 **Dataset**
@@ -38,11 +38,12 @@ The repository demonstrates practical implementation of Machine Learning techniq
 
 ## 🏡 2. House Price Prediction
 
-**Notebook:** `House_Prediction_Dataset.ipynb`
+**Notebook:** `House_Price_Prediction.ipynb`
 
 ### Features
 
 - Data Analysis
+- Data Visualization
 - Feature Engineering
 - Regression Model Development
 - House Price Prediction
@@ -50,26 +51,27 @@ The repository demonstrates practical implementation of Machine Learning techniq
 
 **Dataset**
 
-- `houseprice.csv`
+- `house_price_dataset.csv`
 
 ---
 
 ## 🚢 3. Titanic Survival Prediction
 
-**Notebook:** `Titanic_dataset.ipynb`
+**Notebook:** `Titanic_Survival_Prediction.ipynb`
 
 ### Features
 
 - Data Cleaning
 - Missing Value Treatment
-- Exploratory Data Analysis
+- Exploratory Data Analysis (EDA)
 - Feature Selection
 - Classification Model
 - Survival Prediction
+- Model Evaluation
 
 **Dataset**
 
-- `titanic.csv`
+- `titanic_dataset.csv`
 
 ---
 
@@ -90,13 +92,13 @@ The repository demonstrates practical implementation of Machine Learning techniq
 ```text
 ML_Project/
 │
-├── Car_dataset_data_preprocessing.ipynb
-├── House_Prediction_Dataset.ipynb
-├── Titanic_dataset.ipynb
+├── Car_Data_Preprocessing.ipynb
+├── House_Price_Prediction.ipynb
+├── Titanic_Survival_Prediction.ipynb
 │
 ├── car_dataset.csv
-├── houseprice.csv
-├── titanic.csv
+├── house_price_dataset.csv
+├── titanic_dataset.csv
 │
 └── README.md
 ```
@@ -106,72 +108,72 @@ ML_Project/
 # 📊 Machine Learning Concepts Covered
 
 - Data Preprocessing
+- Data Cleaning
+- Missing Value Handling
 - Exploratory Data Analysis (EDA)
-- Feature Engineering
 - Data Visualization
+- Feature Engineering
 - Regression
 - Classification
 - Model Evaluation
-- Data Cleaning
-- Missing Value Handling
 
 ---
 
 # 🚀 Getting Started
 
-## Clone Repository
+## Clone the Repository
 
 ```bash
 git clone https://github.com/yourusername/ML_Project.git
 ```
 
-## Navigate to Project Folder
+## Navigate to the Project Folder
 
 ```bash
 cd ML_Project
 ```
 
-## Install Dependencies
+## Install Required Libraries
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 ```
 
-## Run Jupyter Notebook
+## Launch Jupyter Notebook
 
 ```bash
 jupyter notebook
 ```
 
-Open any notebook and run the cells.
+Open any notebook and run the cells to explore the projects.
 
 ---
 
 # 🎯 Learning Outcomes
 
-This repository helped me gain hands-on experience in:
+Through these projects, I gained hands-on experience in:
 
 - Python Programming
 - Data Analysis
+- Exploratory Data Analysis (EDA)
 - Data Cleaning
 - Feature Engineering
-- Exploratory Data Analysis (EDA)
-- Regression Models
-- Classification Models
 - Machine Learning Workflow
+- Regression & Classification Models
 - Model Evaluation
+- Data Visualization
 
 ---
 
 # 📈 Future Improvements
 
-- Add more Machine Learning algorithms
 - Hyperparameter Tuning
-- Model Comparison
 - Cross Validation
+- Model Comparison
 - Feature Importance Analysis
-- Interactive Visualizations
 - Streamlit Deployment
+- Interactive Dashboards
+- Advanced Machine Learning Algorithms
 
 ---
 
@@ -181,7 +183,6 @@ This repository helped me gain hands-on experience in:
 - Data Science
 - Machine Learning
 - Business Intelligence
-- Data Visualization
 - Educational Projects
 
 ---
